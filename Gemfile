@@ -7,6 +7,8 @@ gem 'rails', '4.1.0'
 group :development, :test do
   gem 'sqlite3', '1.3.8'
   gem 'rspec-rails', '2.13.1'
+  gem 'minitest'
+  gem 'shoulda-matchers', '2.5'
 end
 
 group :test do
